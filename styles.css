@@ -1,0 +1,79 @@
+h1{
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+}
+
+input{
+    padding-bottom:2px;
+}
+.matrix{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+p .x{
+    white-space: nowrap;
+}
+#MatrixA, #MatrixB, #matrixResult{
+    background-color:rgb(196, 196, 196);
+    border-radius: 20px;
+    padding: 20px;
+    width:auto;
+    height:auto;
+    text-align: center;
+}
+#matrixResult{
+    margin-top: 15px;
+}
+.matA td, .matB td, .matResult td{
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:5px;
+    word-break:normal;
+}
+#btnCreateMatrix{
+    
+}
+.matrixResult{
+    text-align: center;
+    background-color: darkgreen;
+}
+#matResult{
+    text-align: center;
+    display: flex;
+    justify-content: center;    
+}
+#buttons{
+    display: flex;
+    justify-content: center;    
+}
+#btnCreateMatrix, #btnSum, #btnSub {
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#000;
+	font-family:'Secular One', sans-serif;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #e1e2ed;
+    margin-top: 5px;
+
+    
+}
+#btnSum, #btnSub{
+    margin: 0 10px;
+}
+#btnCreateMatrix:hover, #btnSum:hover , #btnSub:hover {
+    background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color:#bab1ba;    
+}
+
+
+        

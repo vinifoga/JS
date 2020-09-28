@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <title>Calculadora de Matriz</title>
+    <header>
+        <h1>Calculadora de Matriz</h1>
+    </header>
+    <section>
+        <div class="matrix">
+            <div id="MatrixA">
+                <h1>Matriz A</h1> 
+                <input type="number" id="rowA" min="2" max="10"> X
+                <input type="number" id="columnA" min="2" max="10"><br>
+                <input type="button" id="btnCreateMatrix" value="CriarMatriz" onclick="createMatrixA()">
+                <p></p>
+            </div>            
+            <div id="MatrixB">
+                <h1>Matriz B</h1> 
+                <input type="number" id="rowB" min="2" max="10"> X
+                <input type="number" id="columnB" min="2" max="10"><br>
+                <input type="button" id="btnCreateMatrix" value="CriarMatriz" onclick="createMatrixB()">
+                <p></p>
+            </div>                    
+        </div>
+        <div id="buttons">
+            <input type="button" value="Somar" onclick="sum()" id="btnSum">
+             <input type="button" value="Subtrair" onclick="sub()" id="btnSub">
+            <!-- <input type="button" value="Multiplicar" onclick="multiply()"> -->
+        </div>
+        
+        
+        <div class="matrixResult" id="matrixResult" style="display: none">
+            <h2>Resultado</h2>
+                <table id="matResult">
+                    
+                </table>
+        </div>
+        
+
+    </section>
+    <footer>
+
+    </footer>
+   
+    
+
+</head>
+<body>
+    <script type="text/javascript" src="functios.js"></script>
+
+</body>
+
+</html>
